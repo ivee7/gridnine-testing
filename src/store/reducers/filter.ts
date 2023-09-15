@@ -8,7 +8,7 @@ import {
     FILTERS_CHANGE_END_PRICE,
 } from '../actions/actionTypes'
 import handleData, { Card } from "../../utils/handleData";
-import data from '/dist/flights.json'
+import data from '@/assets/data/flights.json'
 
 export interface stateInterface {
     filters: {

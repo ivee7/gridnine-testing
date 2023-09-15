@@ -9,5 +9,5 @@
 
 ### Полезные ссылки:
 
-- github репозиторий:
-- deploy сайта:
+- github репозиторий: https://github.com/ivee7/gridnine-testing
+- deploy сайта: https://chimerical-tiramisu-54ed35.netlify.app/
