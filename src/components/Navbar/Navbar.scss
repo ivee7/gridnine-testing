@@ -1,0 +1,41 @@
+.navbar {
+    &__block {
+        background-color: $white;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+
+        @include zero-vertical-offset-of-last;
+    }
+
+    &__sub-title {
+        margin-bottom: 20px;
+    }
+
+    &__columned {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__row {
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+
+        & > input {
+            margin-right: 4px;
+        }
+    }
+
+    &__input {
+        background: rgba($delta, .4);
+        padding: 3px 6px;
+        border-radius: 3px;
+        margin-left: 10px;
+        border: 1px solid $sun;
+
+        &:focus {
+            border-color: $pirate-gold;
+        }
+    }
+}

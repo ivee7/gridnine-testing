@@ -1,0 +1,106 @@
+.card {
+    border: 2px solid $dodger-blue;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+
+        padding: 6px 10px;
+
+        background-color: $dodger-blue;
+
+        &-img {
+            height: 30px;
+        }
+
+        &-text {
+            text-align: end;
+            color: $white;
+
+            font-size: 500;
+        }
+    }
+
+    &__leg {
+        &:not(:last-child) {
+            border-bottom: 3px solid $dodger-blue;
+        }
+
+        &--blue-cl {
+            color: $dodger-blue;
+        }
+
+        &-arrow {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        &-image {
+            width: 16px;
+            height: 16px;
+            margin-right: 4px;
+
+            &-wrapper {
+                display: flex;
+            }
+        }
+
+        &-item {
+            display: flex;
+            align-items: center;
+
+            padding: 8px 0;
+            margin-left: 14px;
+            margin-right: 14px;
+
+            &:first-child {
+                border-bottom: 1px solid $delta;
+            }
+
+            &--justify {
+                justify-content: space-between;
+            }
+        }
+
+        &-transfer {
+            position: relative;
+
+            &-text {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateY(-50%) translateX(-50%);
+                padding-left: 4px;
+                padding-right: 4px;
+
+                background-color: $white;
+                color: $sun;
+            }
+
+            &-line {
+                height: 2px;
+                background-color: $delta;
+                width: 100%;
+                max-width: 60%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__button {
+        width: 100%;
+        background-color: $sun;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        &:hover {
+            color: $white;
+            background-color: $pirate-gold;
+        }
+    }
+}

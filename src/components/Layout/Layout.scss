@@ -1,0 +1,25 @@
+.layout {
+    display: flex;
+
+    &__navbar {
+        flex-grow: 1;
+        flex-shrink: 0;
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-right: 40px;
+
+        background-color: $delta;
+    }
+
+    &__content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex-grow: 1;
+    }
+
+    @media (min-width: $media-desktop) {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}

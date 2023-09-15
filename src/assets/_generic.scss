@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+
+    margin: 0;
+    padding: 0;
+
+    &::before,
+    &::after {
+        box-sizing: border-box;
+    }
+}
+
+html {
+    font-family: $font-family;
+    font-size: $font-size-basic;
+    font-weight: $font-weight-regular;
+
+    height: 100%;
+
+    color: $cod-gray;
+}
+
+#app {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+button {
+    cursor: pointer;
+    user-select: none;
+
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+a {
+    text-decoration: none;
+
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+
+    &:hover,
+    &:focus,
+    &:active {
+      outline: 0;
+    }
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+}

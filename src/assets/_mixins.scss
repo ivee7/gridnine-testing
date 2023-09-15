@@ -1,0 +1,11 @@
+@mixin zero-vertical-offset-of-last {
+    &:last-child {
+      margin-bottom: 0;
+    }
+}
+
+@mixin zero-horizontal-offset-of-last {
+  &:last-child {
+    margin-right: 0;
+  }
+}
